@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4e31ef7c0f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="col s12 l8 offset-l2">
+                <h2 class = 'teal-text text-darken-3'>Task List</h2>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input type="text" name="input" class="input">
+                                <label for="input">New Task</label>
+                            </div>
+                            <button class="submit btn waves-effect waves-light">Submit
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <div class="input-field search">
+                            <input type="text" name="input">
+                            <label for="input">Search</label>
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                    <div class="card-action">
+                        <ul class="collection"></ul>
+                        <button class="btn grey darken-2 clear-btn">CLEAR ALL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
